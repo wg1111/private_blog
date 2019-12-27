@@ -105,7 +105,7 @@
 
     }
 
-    
+
     //提交每天说的话
     var iSay = $('#iSay');
     var moods = $('.moods');
@@ -167,7 +167,7 @@
                     if(last > 0){
                         $('.saysButton').append('<div class="buttonLine">' +
                             '<hr data-am-widget="divider" class="am-divider am-divider-default" />' +
-                            '<span>别点啦，俺老张也是有底线的人～(>_<)～～</span>' +
+                            '<span>别点啦，俺也是有底线的人～(>_<)～～</span>' +
                             '</div>');
                     } else {
                         getTodayInfo(++currentPage);
